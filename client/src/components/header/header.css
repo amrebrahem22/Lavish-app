@@ -64,6 +64,7 @@
 .header__center input {
     border: none;
     outline: 0;
+    width: 100%;
 }
 
 .header__right p:hover {

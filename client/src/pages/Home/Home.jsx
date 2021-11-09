@@ -1,7 +1,11 @@
 import React from 'react';
+import { Button } from '@mui/material';
 import Banner from '../../components/banner/Banner';
 import Card from '../../components/card/Card';
 import './home.css';
+import sectionImg from '../../images/section.webp';
+import section1Img from '../../images/section-2-1.webp';
+import section2Img from '../../images/section-2-2.webp';
 
 const Home = () => {
     return (
@@ -44,6 +48,33 @@ const Home = () => {
                     description="Superhost with great amenities and a fabolous shopping complex nearby"
                     price="£70/night"
                 />
+            </div>
+
+            <div className="img-section" style={{backgroundImage: `url(${sectionImg})`}}>
+                <div className="content">
+                    <h3>Not sure where to go? Perfect.</h3>
+                    <Button>I'm flexible</Button>
+                </div>
+            </div>
+            
+            <div className="discover-section">
+                <h3>Discover Lavish Experiences</h3>
+                <div className="split-content">
+                    <div className="main" style={{backgroundImage: `url(${section1Img})`}}>
+                        <div className="content">
+                            <h3>Things to do on your trip</h3>
+                            <Button>Experiences</Button>
+                        </div>
+                    </div>
+                    
+                    <div className="main" style={{backgroundImage: `url(${section2Img})`}}>
+                        <div className="content">
+                            <h3>Things to do from home</h3>
+                            <Button>Online Experiences</Button>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     )

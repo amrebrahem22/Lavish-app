@@ -1,0 +1,81 @@
+.img-section {
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    background-position: center;
+}
+
+.img-section .content button {
+    background: #fff;
+    padding: .5rem 1.3rem;
+    color: var(--main-color);
+    font-weight: 700;
+    transition: all .3s ease;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+}
+
+.img-section .content button:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.discover-section {
+    padding: 4rem 0;
+    width: 90%;
+    margin: auto;
+}
+
+.discover-section h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.discover-section .split-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.discover-section .split-content .main {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.discover-section .split-content .main .content {
+    padding: 2rem;
+}
+
+.discover-section .split-content .main button {
+    color: var(--main-color);
+    background: #fff;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    transition: all .3s ease;
+}
+
+.discover-section .split-content .main button:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .discover-section .split-content {
+        flex-direction: column;
+    }
+}

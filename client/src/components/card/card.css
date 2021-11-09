@@ -8,6 +8,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+    .card-list {
+        flex-direction: column;
+    }
+}
+
 .card {
     margin: 10px;
     border-radius: 10px;
@@ -27,6 +33,9 @@
     color: #828689;
     margin-top: .3rem;
     font-weight: 400;
+}
+.card__info h2 {
+    font-size: 1.3rem;
 }
 
 .card:hover {
