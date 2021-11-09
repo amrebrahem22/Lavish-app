@@ -94,3 +94,9 @@
         padding: .3rem .5rem;
     }
 }
+
+@media (min-width: 950px) {
+    .header__center {
+        margin-left: 10rem;
+    }
+}

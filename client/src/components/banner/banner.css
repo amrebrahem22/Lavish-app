@@ -30,6 +30,7 @@
     .banner__info {
         width: 100%;
         height: fit-content;
+        padding-top: 8rem;
     }
 }
 
