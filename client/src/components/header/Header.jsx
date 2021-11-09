@@ -12,7 +12,7 @@ const Header = () => {
                 <img className="header__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" alt="" />
 
                 <div className="header__center">
-                    <input type="text" />
+                    <input type="text" placeholder="Start your Search" />
                     <SearchIcon />
                 </div>
                 <div className="header__right">
